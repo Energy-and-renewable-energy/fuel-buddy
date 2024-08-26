@@ -1,4 +1,4 @@
-import "./ErrorMessage.scss";
+import "./ErrorMessage.scs";
 import gasStation from "../../images/gas-station.png";
 import { Link } from "react-router-dom";
 
