@@ -1,0 +1,5 @@
+import "./Loadin Animation.scss";
+
+export const Loadin Animation = () => {
+  return <div className="loading">Loading&#8230;</div>;
+};
