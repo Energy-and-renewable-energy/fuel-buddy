@@ -26,6 +26,6 @@ export const sortAndFilterStations = (allStations: GasStation[], location: strin
     .sort((a: GasStation, b: GasStation) => {
       const GasPriceA = findPriceByType(a.GasPrices, fuelType);
       const GasPriceB = findPriceByType(b.GasPrices, fuelType);
-      return gasPriceA.price > gasPriceB.price ? 1 : -1;
+      return GasPriceA.price > GasPriceB.price ? 1 : -1;
     });
 }
