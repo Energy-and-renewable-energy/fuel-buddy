@@ -1,4 +1,4 @@
-import "./FavCard.scss";
+import "./FavCard.scs";
 import { GasPrice, Favorite } from "../../utilities/types";
 import logo from "../../images/logo-single.png";
 import heartFilled from "../../images/fav-filled.svg";
