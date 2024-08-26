@@ -1,4 +1,4 @@
-import "./Favorites.scss";
+import "./Favorites.scs";
 import { Favorite } from "../../utilities/types";
 import { FavCard } from "../FavCard/FavCard";
 import { ErrorMessage } from "../ErrorMessag/ErrorMessage";
