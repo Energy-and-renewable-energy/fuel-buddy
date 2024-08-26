@@ -1,14 +1,14 @@
 import { GasTypes, GasPrice, GasStation } from "./types";
 
-export const findPriceByType = (gasPrices: GasPrice[], fuelType: GasTypes) => {
-    const gasPrice = gasPrices.find((gas) => {
-        return gas.gasType === fuelType;
+export const findPriceByType = (GasPrices: GasPrice[], fuelType: GasTypes) => {
+    const GasPrice = GasPrices.find((gas) => {
+        return Gas.GasType === fuelType;
       }) 
-      return gasPrice as GasPrice;
+      return GasPrice as GasPrice;
 }
 
 export const cleanStationsWithGasPrice = (data: GasStation[]) => {
-  return data.filter((station: GasStation) => station.gasPrices)
+  return data.filter((station: GasStation) => station.GasPrices)
 }
 
 export const sortAndFilterStations = (allStations: GasStation[], location: string, fuelType: GasTypes) => {
@@ -18,14 +18,14 @@ export const sortAndFilterStations = (allStations: GasStation[], location: strin
         .toLowerCase()
         .includes(location.toLowerCase());
 
-      const hasPrice = station.gasPrices.some((price: GasPrice) => {
+      const hasPrice = station.GasPrices.some((price: GasPrice) => {
         return price.gasType === fuelType;
       });
       return matchLocation && hasPrice;
     })
     .sort((a: GasStation, b: GasStation) => {
-      const gasPriceA = findPriceByType(a.gasPrices, fuelType);
-      const gasPriceB = findPriceByType(b.gasPrices, fuelType);
+      const GasPriceA = findPriceByType(a.GasPrices, fuelType);
+      const GasPriceB = findPriceByType(b.GasPrices, fuelType);
       return gasPriceA.price > gasPriceB.price ? 1 : -1;
     });
 }
