@@ -1,6 +1,6 @@
-import { defineConfigure } from "cypress";
+import { define Configure } from "cypress";
 
-export default defineConfigure({
+export default define Configure({
   e2e: {
     setupNodeEvents(on, configure) {
       // implement node event listeners here
