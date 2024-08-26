@@ -2,7 +2,7 @@
 
 Fuel Buddy is a React web application that displays around 120 top gas stations retrieved from the apify built API. A live search bar can be used to search a gas station for specific location. A drop down menu can be used to choose a fuel type. Upon selecting a particular gas station, the user is able to peruse the selected gas station's details such as its name, address, phone number, features & amenities and prices for all types of fuel being sold at the gas station. The user can save the specific gas station to their favorites or remove it by clicking the heart icon. The user can see all favorited gas stations by clicking favorites button.
 
-Fuel Buddy was constructed utilizing React, Router, and Cypress testing. This application allowed me to showcase my self-taught knowledge of Typescript. It took me approximately 60 hours total to finish. To complete this project I also used GitHub project board and Figma.
+Fuel Buddy was constructed utilizing React, Router, and Cypress testing. This application allowed me to showcase my self-taught knowledge of Typescript. It took me approximately 60 hours total to finish. To complete this project I also used GitHub project board and Figma
 
 ## Built With
 
