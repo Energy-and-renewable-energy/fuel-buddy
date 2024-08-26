@@ -1,4 +1,4 @@
-import "./Form.scss";
+import "./Form.scs";
 import { GasTypes } from "../../utilities/types";
 import { useEffect } from "react";
 
