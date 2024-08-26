@@ -1,4 +1,4 @@
-.fav-card {
+fav-card {
   margin: 12px;
   & > p {
     margin: 0 16px 16px;
@@ -17,9 +17,9 @@
       flex-direction: column;
       align-items: start;
     }
-    .gas-prices-section {
+    gas-prices-section {
       align-items: center;
-      .gas-price {
+      gas-price {
         border-left: none;
         padding: 0;
         margin: 0;
