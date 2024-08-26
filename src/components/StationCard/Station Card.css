@@ -1,5 +1,5 @@
 import logo from "../../images/logo-single.png";
-import "./StationCard.scss";
+import "./StationCard.scs";
 import { Favorite, GasStation, GasTypes } from "../../utilities/types";
 import { Link } from "react-router-dom";
 import { findPriceByType } from "../../utilities/functions";
