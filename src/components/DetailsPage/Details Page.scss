@@ -1,4 +1,4 @@
-.details {
+details {
   display: grid;
   grid-template-columns: 1fr min-content 400px;
   align-items: start;
@@ -12,7 +12,7 @@
       justify-content: space-between;
     }
   }
-  .details-review-count {
+  details-review-count {
     text-align: center;
     justify-self: end;
     background: #ffffff;
@@ -29,14 +29,14 @@
       margin-right: 8px;
     }
   }
-  .details-features {
+  details-features {
     & > div {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
       gap: 8px;
     }
-    .category-tag {
+    category-tag {
       margin: 0;
       display: inline;
       background: #1a779a;
@@ -46,7 +46,7 @@
       font-size: 12px;
     }
   }
-  .gas-prices-section {
+  gas-prices-section {
     margin: 24px 0;
   }
   @media only screen and (max-width: 1200px) {
@@ -54,18 +54,18 @@
   }
   @media only screen and (max-width: 770px) {
     grid-template-columns: 1fr;
-    .details-review-count {
+    details-review-count {
       display: none;
     }
   }
   @media only screen and (max-width: 500px) {
-    .mapboxgl-map {
+    mapboxgl-map {
       display: none;
     }
-    .gas-prices-section {
+    gas-prices-section {
       flex-direction: column;
       align-items: center;
-      .gas-price {
+      gas-price {
         border-left: none;
         padding: 0;
         margin: 0;
