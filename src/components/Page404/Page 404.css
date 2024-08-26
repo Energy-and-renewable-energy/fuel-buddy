@@ -1,4 +1,4 @@
-import { ErrorMessage } from "../ErrorMessag/ErrorMessage";
+import { Error Message } from "../Error Messag/Error Message";
 
 export const Page404 = () => {
   return (
